@@ -6,6 +6,6 @@ public class InfectedTown extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java InfectedTown";
+		return "java "+BOT_LOCATION+"InfectedTown";
 	}	
 }

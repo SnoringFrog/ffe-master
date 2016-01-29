@@ -6,6 +6,6 @@ public class InfectedHaven extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Python34\\python3.exe InfectedHaven.py";
+		return "python3 "+BOT_LOCATION+"InfectedHaven.py";
 	}	
 }

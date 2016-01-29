@@ -6,6 +6,6 @@ public class Madagascar extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java Madagascar";
+		return "java "+BOT_LOCATION+"Madagascar";
 	}	
 }

@@ -6,6 +6,6 @@ public class Crossroads extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Python27\\python2.exe Crossroads.py";
+		return "python2 "+BOT_LOCATION+"Crossroads.py";
 	}	
 }

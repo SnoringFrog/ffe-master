@@ -59,6 +59,8 @@ public class State {
 		Scanner stdin = null;
 		try {
 			proc = Runtime.getRuntime().exec(owner.getCmd() + " " + args);
+			//System.out.println("--------------" + owner.getCmd() + " " + args);
+			//proc = Runtime.getRuntime().exec("python /Users/430011037/git/ffe-master/Smaug.py " + args);
 			stdin = new Scanner(proc.getInputStream());
 			StringBuilder response = new StringBuilder();
 			while (stdin.hasNext()) {

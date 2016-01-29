@@ -13,51 +13,51 @@ import players.*;
 public class Game {
 	private static Player[] players = {
 		new AllOrNothing(),
-		new BioterroristBot(), // D
+		//new BioterroristBot(), // D
 		new Crossroads(),
 		new CullBot(),
-		new CureThenQuarantine(),
+		//new CureThenQuarantine(),
 		new DisseminationBot(),
 		new FamilyValues(),
 		new InfectedHaven(), // D
-		new InfectedTown(), // I
-		new InfectionBot(), // I
+		//new InfectedTown(), // I
+		//new InfectionBot(), // I
 		new Israel(),
-		new Madagascar(),
-		new MadScienceBot(), // I
+		//new Madagascar(),
+		//new MadScienceBot(), // I
 		new Medic(),
-		new MedicBot(),
-		new Mooch(),
+		//new MedicBot(),
+		//new Mooch(),
 		new OpenAndClose(),
-		new PassiveBot(),
+		//new PassiveBot(),
 		new PFC(), // I (C)
-		new Piecemeal(),
-		new PureBot(),
+		//new Piecemeal(),
+		//new PureBot(),
 		new RedCross(),
 		new RemoveInfected(),
-		new Researcher(),
+		//new Researcher(),
 		new Salt(),
-		new Socialist(), // I
+		//new Socialist(), // I
 		new Smaug(), // D
-		new Strategist(),
+		//new Strategist(),
 		new Terrorist(), // I
-		new TheCure(),
+		//new TheCure(),
 		new TheKeeper(),
-		new ThePacifist(), // I
-		new Triage(),
-		new TrumpBot(),
+		//new ThePacifist(), // I
+		//new Triage(),
+		//new TrumpBot(),
 		new UndecidedBot(),
-		new WeaponOfMassDissemination(),
+		//new WeaponOfMassDissemination(),
 		new WICKED(),
 		new XenoBot(),
-		new ZombieState() // I(C)
+		//new ZombieState() // I(C)
 	};
 	
 	// Game Parameters
 	private static final int ROUNDS = 50;
 	
 	// Console
-	private static final boolean DEBUG = false;
+	private static final boolean DEBUG = true;
 	private static final boolean GAME_MESSAGES = true;
 	private static final boolean GLOBAL_MESSAGES = true;
 	
@@ -199,7 +199,7 @@ public class Game {
 						System.out.println("Request : " + request);
 						System.out.println("Response : " + response);
 					}
-					
+
 					if (response.length() < 3) {
 						throw new Exception("Invalid response length : " + response.length());
 					}

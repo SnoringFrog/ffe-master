@@ -6,6 +6,6 @@ public class PassiveBot extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java PassiveBot";
+		return "java "+BOT_LOCATION+"PassiveBot";
 	}	
 }

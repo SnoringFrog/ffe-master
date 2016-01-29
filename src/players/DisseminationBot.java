@@ -6,6 +6,6 @@ public class DisseminationBot extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Ruby193\\bin\\ruby.exe DisseminationBot.rb";
+		return "ruby "+BOT_LOCATION+"DisseminationBot.rb";
 	}	
 }

@@ -6,6 +6,6 @@ public class TheKeeper extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\lua-5.2.3\\lua52.exe TheKeeper.lua";
+		return "lua-5.2 "+BOT_LOCATION+"TheKeeper.lua";
 	}	
 }

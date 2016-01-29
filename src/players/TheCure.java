@@ -6,6 +6,6 @@ public class TheCure extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java TheCure";
+		return "java "+BOT_LOCATION+"TheCure";
 	}	
 }

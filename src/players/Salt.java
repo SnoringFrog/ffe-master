@@ -6,6 +6,6 @@ public class Salt extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\kotlinc\\bin\\kotlin.bat salt.SaltKt";
+		return "kotlin "+BOT_LOCATION+"salt.SaltKt";
 	}	
 }

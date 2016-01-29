@@ -6,6 +6,6 @@ public class TrumpBot extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java TrumpBot";
+		return "java "+BOT_LOCATION+"TrumpBot";
 	}	
 }

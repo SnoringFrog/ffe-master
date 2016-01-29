@@ -6,6 +6,6 @@ public class RedCross extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Python27\\python2.exe RedCross.py";
+		return "python2 "+BOT_LOCATION+"RedCross.py";
 	}	
 }

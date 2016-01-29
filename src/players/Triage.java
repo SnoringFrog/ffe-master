@@ -6,6 +6,6 @@ public class Triage extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java Triage";
+		return "java "+BOT_LOCATION+"Triage";
 	}	
 }

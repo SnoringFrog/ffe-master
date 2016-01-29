@@ -6,6 +6,6 @@ public class Smaug extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Python27\\python2.exe Smaug.py";
+		return "python2 "+BOT_LOCATION+"Smaug.py";
 	}	
 }

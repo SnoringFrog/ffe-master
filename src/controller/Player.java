@@ -4,6 +4,7 @@ package controller;
 import java.util.Scanner;
 
 public abstract class Player {
+	protected final String BOT_LOCATION = "/Users/430011037/git/ffe-master/";
 	private int id;
 	private int score;
 

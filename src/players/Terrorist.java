@@ -6,6 +6,6 @@ public class Terrorist extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\kotlinc\\bin\\kotlin.bat terrorist.TerroristKt";
+		return "kotlin "+BOT_LOCATION+"terrorist.TerroristKt";
 	}	
 }

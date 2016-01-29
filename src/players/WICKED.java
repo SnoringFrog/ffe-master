@@ -6,6 +6,6 @@ public class WICKED extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\kotlinc\\bin\\kotlin.bat wicked.WICKEDKt";
+		return "kotlin "+BOT_LOCATION+"wicked.WICKEDKt";
 	}	
 }

@@ -6,6 +6,6 @@ public class OpenAndClose extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Ruby193\\bin\\ruby.exe OpenAndClose.rb";
+		return "ruby "+BOT_LOCATION+"OpenAndClose.rb";
 	}	
 }

@@ -6,6 +6,6 @@ public class CureThenQuarantine extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java CureThenQuarantine";
+		return "java "+BOT_LOCATION+"CureThenQuarantine";
 	}	
 }

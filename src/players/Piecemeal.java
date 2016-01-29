@@ -6,6 +6,6 @@ public class Piecemeal extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java Piecemeal";
+		return "java "+BOT_LOCATION+"Piecemeal";
 	}	
 }

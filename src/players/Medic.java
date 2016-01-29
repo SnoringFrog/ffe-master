@@ -6,6 +6,6 @@ public class Medic extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Python27\\python2.exe Medic.py";
+		return "python "+BOT_LOCATION+"Medic.py";
 	}	
 }

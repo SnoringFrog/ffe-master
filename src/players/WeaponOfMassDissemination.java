@@ -6,6 +6,6 @@ public class WeaponOfMassDissemination extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java WeaponOfMassDissemination";
+		return "java "+BOT_LOCATION+"WeaponOfMassDissemination";
 	}	
 }

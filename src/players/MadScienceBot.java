@@ -6,6 +6,6 @@ public class MadScienceBot extends Player {
 
 	@Override
 	public String getCmd() {
-		return "C:\\Python27\\python2.exe MadScienceBot.py";
+		return "python "+BOT_LOCATION+"MadScienceBot.py";
 	}	
 }

@@ -6,6 +6,6 @@ public class MedicBot extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java MedicBot";
+		return "java "+BOT_LOCATION+"MedicBot";
 	}	
 }

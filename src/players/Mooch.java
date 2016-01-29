@@ -6,6 +6,6 @@ public class Mooch extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java Mooch";
+		return "java "+BOT_LOCATION+"Mooch";
 	}	
 }

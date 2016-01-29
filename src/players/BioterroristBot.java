@@ -6,6 +6,6 @@ public class BioterroristBot extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java BioterroristBot";
+		return "java "+BOT_LOCATION+"BioterroristBot";
 	}	
 }

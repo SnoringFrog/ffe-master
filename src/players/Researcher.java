@@ -6,6 +6,6 @@ public class Researcher extends Player {
 
 	@Override
 	public String getCmd() {
-		return "java Researcher";
+		return "java "+BOT_LOCATION+"Researcher";
 	}	
 }
